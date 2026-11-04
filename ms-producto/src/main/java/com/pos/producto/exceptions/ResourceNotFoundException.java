@@ -1,0 +1,8 @@
+package com.pos.producto.exceptions;
+
+public class ResourceNotFoundException extends RuntimeException {
+
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
+}
